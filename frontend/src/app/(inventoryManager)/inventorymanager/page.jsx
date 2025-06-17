@@ -112,39 +112,6 @@ export default function DashboardInventory () {
     { year: "2025", revenue: 380000, profit: 152000, loss: 19000 },
   ]
 
-  // Category Revenue Data
-  const categoryRevenueData = [
-    { category: "Birthday Gifts", revenue: 45000, percentage: 35, color: "#10B981" },
-    { category: "Wedding Gifts", revenue: 32000, percentage: 25, color: "#8B5CF6" },
-    { category: "Party Rentals", revenue: 28000, percentage: 22, color: "#F59E0B" },
-    { category: "Decorations", revenue: 23000, percentage: 18, color: "#EF4444" },
-  ]
-
-  // Product-wise Revenue Data
-  const productRevenueData = [
-    { product: "Custom Gift Baskets", revenue: 18500, units: 245, avgPrice: 75.51 },
-    { product: "Wedding Decoration Package", revenue: 15200, units: 38, avgPrice: 400.0 },
-    { product: "Party Light Rentals", revenue: 12800, units: 128, avgPrice: 100.0 },
-    { product: "Birthday Gift Boxes", revenue: 11200, units: 186, avgPrice: 60.22 },
-    { product: "Balloon Arrangements", revenue: 8900, units: 178, avgPrice: 50.0 },
-    { product: "Event Furniture Rental", revenue: 7600, units: 19, avgPrice: 400.0 },
-  ]
-
-  // Regional Revenue Data
-  const regionalRevenueData = [
-    { region: "Downtown", revenue: 45000, orders: 450, growth: 12 },
-    { region: "Suburbs", revenue: 38000, orders: 380, growth: 8 },
-    { region: "Mall District", revenue: 32000, orders: 320, growth: 15 },
-    { region: "Business District", revenue: 28000, orders: 280, growth: -3 },
-    { region: "Residential Area", revenue: 25000, orders: 250, growth: 6 },
-  ]
-
-  const categoryData = [
-    { name: "Gifts", value: 45, color: "#10B981" },
-    { name: "Rentals", value: 30, color: "#8B5CF6" },
-    { name: "Decorations", value: 25, color: "#F59E0B" },
-  ]
-
   const popularProducts = [
     {
       name: "Birthday Gift Box",
