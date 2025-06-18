@@ -446,7 +446,7 @@ export default function DashboardInventory () {
         )}
 
         {/* Key Metrics */}
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-3 md:gap-4 mb-6">
+        <div className="grid grid-cols-2 md:grid-cols-3 gap-3 md:gap-4 mb-6">
           <Card className="bg-white border-gray-200 shadow-sm">
             <CardContent className={cn("p-4 md:p-6", isMobile && "flex flex-col items-center text-center")}>
               <div className="flex items-center gap-2 mb-2 justify-center md:justify-start">
